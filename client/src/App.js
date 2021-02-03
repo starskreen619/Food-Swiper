@@ -1,8 +1,14 @@
-import React from "react";
-import Deck from "./components/Deck";
+import './App.css';
+import React from 'react';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
-const App = () => <Deck />;
+function App() {
+  return (
+    <div className="App">
+      <h3>Create & Login UI Template in React</h3>
+    </div>
+  );
+}
 
 export default App;
-
-//To run use:  "npm install" and "npm start"
